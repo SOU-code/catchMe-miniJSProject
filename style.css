@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-weight: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(154, 6, 154);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.text {
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+}
